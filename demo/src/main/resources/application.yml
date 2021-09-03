@@ -1,0 +1,17 @@
+
+
+spring:
+  mvc:
+    view:
+      # 过滤前缀
+      prefix: /WEB-INF/views/
+      # 过滤后缀
+      suffix: .jsp
+
+
+server:
+  port: 8080
+  servlet:
+    jsp:
+      init-parameters:
+        development: true
